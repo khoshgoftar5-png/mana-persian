@@ -25,7 +25,7 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
             </div>
           </div>
           <div className="hero-motif">
-            <MotifPanel />
+           <img src="/logo.svg" alt="مانا" style={{ width: "140px", height: "140px", margin: "0 auto" }} />
           </div>
         </div>
       </section>
