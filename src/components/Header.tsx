@@ -21,7 +21,7 @@ export default function Header({ locale }: { locale: Locale }) {
         <Link href={`/${locale}`} className="brand">
           <span className="brand-mark" aria-hidden="true" />
           {t.meta.siteName}
-          <span className="brand-tagline">{t.meta.tagline}</span>
+          <span className="brand-tagline">{مانا پرشین}</span>
         </Link>
         <nav className="primary-nav" aria-label={t.nav.search}>
           {links.map(([label, href]) => (
