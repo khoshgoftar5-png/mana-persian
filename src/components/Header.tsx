@@ -1,10 +1,8 @@
 import Link from "next/link";
 import { Locale, getDictionary, otherLocale } from "@/lib/i18n";
-
 export default function Header({ locale }: { locale: Locale }) {
   const t = getDictionary(locale);
   const other = otherLocale(locale);
-
   const links: [string, string][] = [
     [t.nav.learn, `/${locale}/learn`],
     [t.nav.literature, `/${locale}/literature`],
@@ -14,7 +12,6 @@ export default function Header({ locale }: { locale: Locale }) {
     [t.nav.blog, `/${locale}/blog`],
     [t.nav.about, `/${locale}/about`]
   ];
-
   return (
     <header className="site-header">
       <div className="container header-row">
