@@ -1,4 +1,4 @@
-export default function RootLayout({ children}:{children:react.reactnode}) {
+export default function RootLayout({ children}:{children:React.ReactNode}) {
   return (
     <html lang="fa" dir="rtl">
       <head>
