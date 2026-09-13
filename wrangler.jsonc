@@ -1,9 +1,9 @@
 {
 "name": "mana-persian",
 "compatibility_date": "2026-01-01",
-"assets": {
-"directory": "./out"
-"html_handling": "auto-trailing-slash",
-"not_found_handling": "single-page-application"
+"assets":{
+"directory":"./out",
+"html_handling":"auto-trailing-slash",
+"not_found_handling":"single-page-application"
  }
 }
