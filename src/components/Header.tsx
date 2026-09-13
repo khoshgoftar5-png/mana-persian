@@ -17,8 +17,8 @@ export default function Header({ locale }: { locale: Locale }) {
       <div className="container header-row">
         <Link href={`/${locale}`} className="brand">
           <span className="brand-mark" aria-hidden="true" />
-          {t.meta.siteName}
-          <span className="brand-tagline">{مانا پرشین}</span>
+         مانا پرشین
+          <span className="brand-tagline">{t.meta.tagline}</span>
         </Link>
         <nav className="primary-nav" aria-label={t.nav.search}>
           {links.map(([label, href]) => (
