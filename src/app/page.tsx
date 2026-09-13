@@ -1,8 +1,8 @@
 export default function RootRedirect() {
   return (
-    <div style={{ padding: "3rem", textAlign: "center" }}>
+    <div>
       <p>
-        در حال انتقال به نسخهٔ فارسی… اگر منتقل نشدید، <a href="/fa/" style={{ color: "#D8B876" }}>اینجا</a> را بزنید.
+        در حال انتقال به نسخهٔ فارسی… اگر منتقل نشدید، <a href="/fa/" >اینجا</a> را بزنید.
       </p>
     </div>
   );
